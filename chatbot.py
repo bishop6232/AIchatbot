@@ -37,6 +37,7 @@ while True:
 
     elif biometrics_submit.lower() == "no":
         print("\nSorry, you have to go to the nearest visa center close to you to do your biometrics before you can continue your visa process")
+        print(">>>>>>    The chat ended    <<<<<<")
         quit()
 
 while 1:
@@ -102,7 +103,7 @@ while True:
     if user_scan_response.lower() == "scan" or user_scan_response.lower() == "scannow" or user_scan_response.lower() == "scan now":
         print(f"{bot_response}")
         print("\nYou can now make a face capture")
-        print(">> sucessful << thank you for the face capture...")
+        print(">> successful << thank you for the face capture...")
         break
     else:
         print("Wrong input: please type 'SCAN'")
