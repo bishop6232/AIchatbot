@@ -1,0 +1,23 @@
+{"intents": [
+        {"tag": "greetings",
+          "patterns": ["hi","whats up","hello","hey","how are you?"],
+          "responses": ["hello!","hi","good to see you again!","hi there!","how can i help you?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","exit"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","am glad i could help today"]
+        },
+        {"tag": "apply visa",
+          "patterns": ["i want to apply for visa","i want to apply visa","how can i apply visa?","i want to apply for a visa","visa"],
+          "responses":["what kind of visa are you applying for?"]
+        },
+        {"tag": "visa type",
+          "patterns": ["i want to apply for student visa","for student visa","student visa","work visa", "working visa","visa for work"],
+          "responses":["please provide the following information"]
+        },
+      {"tag": "invalid",
+        "patterns": ["","gvsd","asbhk"],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    }
+]
+}
